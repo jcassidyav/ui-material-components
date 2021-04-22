@@ -4,12 +4,26 @@
         "rootDir": "../../src/textfield",
         "outDir": "./",
         "paths": {
-            "tns-core-modules": ["./node_modules/@nativescript/core"],
-            "tns-core-modules/*": ["./node_modules/@nativescript/core/*"],
-            "@nativescript-community/ui-material-core": ["packages/core/index"],
-            "@nativescript-community/ui-material-core/*": ["packages/core/*"],
+            "tns-core-modules": [
+                "./node_modules/@nativescript/core"
+            ],
+            "tns-core-modules/*": [
+                "./node_modules/@nativescript/core/*"
+            ],
+            "@nativescript-community/ui-material-core": [
+                "./packages/core/index"
+            ],
+            "@nativescript-community/ui-material-core/*": [
+                "./packages/core/*"
+            ],
         }
     },
-    "include": ["../../src/textfield/**/*.ts", "../../references.d.ts", "../../src/references.d.ts"],
-    "exclude": ["../../src/textfield/angular/**"]
+    "include": [
+        "../../src/textfield/**/*.ts",
+        "../../references.d.ts",
+        "../../src/references.d.ts"
+    ],
+    "exclude": [
+        "../../src/textfield/angular/**"
+    ]
 }

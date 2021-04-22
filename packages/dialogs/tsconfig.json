@@ -4,14 +4,32 @@
         "rootDir": "../../src/dialogs",
         "outDir": "./",
         "paths": {
-            "tns-core-modules": ["./node_modules/@nativescript/core"],
-            "tns-core-modules/*": ["./node_modules/@nativescript/core/*"],
-            "@nativescript-community/ui-material-core": ["packages/core/index"],
-            "@nativescript-community/ui-material-core/*": ["packages/core/*"],
-            "@nativescript-community/ui-material-textfield": ["src/textfield/textfield"],
-            "@nativescript-community/ui-material-textfield/*": ["src/textfield/*"],
+            "tns-core-modules": [
+                "./node_modules/@nativescript/core"
+            ],
+            "tns-core-modules/*": [
+                "./node_modules/@nativescript/core/*"
+            ],
+            "@nativescript-community/ui-material-core": [
+                "./packages/core/index"
+            ],
+            "@nativescript-community/ui-material-core/*": [
+                "./packages/core/*"
+            ],
+            "@nativescript-community/ui-material-textfield": [
+                "src/textfield/textfield"
+            ],
+            "@nativescript-community/ui-material-textfield/*": [
+                "src/textfield/*"
+            ],
         }
     },
-    "include": ["../../src/dialogs/**/*.ts", "../../references.d.ts", "../../src/references.d.ts"],
-    "exclude": ["../../src/dialogs/angular/**"]
+    "include": [
+        "../../src/dialogs/**/*.ts",
+        "../../references.d.ts",
+        "../../src/references.d.ts"
+    ],
+    "exclude": [
+        "../../src/dialogs/angular/**"
+    ]
 }

@@ -3,17 +3,37 @@
     "compilerOptions": {
         "rootDir": "./",
         "paths": {
-            "tns-core-modules": ["./node_modules/@nativescript/core"],
-            "tns-core-modules/*": ["./node_modules/@nativescript/core/*"],
-            "@nativescript-community/ui-material-core": ["packages/core/index"],
-            "@nativescript-community/ui-material-core/*": ["packages/core/*"],
-            "@nativescript-community/ui-material-speeddial": ["packages/speeddial/index"],
-            "@nativescript-community/ui-material-speeddial/*": ["packages/speeddial/*"],
-            "@nativescript-community/ui-material-button": ["packages/button/button"],
-            "@nativescript-community/ui-material-button/*": ["packages/button/*"]
+            "tns-core-modules": [
+                "./node_modules/@nativescript/core"
+            ],
+            "tns-core-modules/*": [
+                "./node_modules/@nativescript/core/*"
+            ],
+            "@nativescript-community/ui-material-core": [
+                "./packages/core/index"
+            ],
+            "@nativescript-community/ui-material-core/*": [
+                "./packages/core/*"
+            ],
+            "@nativescript-community/ui-material-speeddial": [
+                "packages/speeddial/index"
+            ],
+            "@nativescript-community/ui-material-speeddial/*": [
+                "packages/speeddial/*"
+            ],
+            "@nativescript-community/ui-material-button": [
+                "packages/button/button"
+            ],
+            "@nativescript-community/ui-material-button/*": [
+                "packages/button/*"
+            ]
         }
     },
-    "include": ["./**/*.ts", "../../../references.d.ts", "../../references.d.ts"],
+    "include": [
+        "./**/*.ts",
+        "../../../references.d.ts",
+        "../../references.d.ts"
+    ],
     "angularCompilerOptions": {
         "enableIvy": true
     }
